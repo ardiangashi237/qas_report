@@ -1,0 +1,670 @@
+{% extends "base.html" %}
+
+{% block title %}Usage History - Experian QAS Email Reporting{% endblock %}
+
+{% block extra_style %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/date-picker.css" xmlns="http://www.w3.org/1999/html"/>
+{% endblock %}
+{% load templatetags %}
+{% load humanize %}
+{% block main_content %}
+    <div style="float:right; padding: 5px 60px 5px 0;">
+        Date Format: {% if date_format == 'd/m/Y' %}<a href="#" class="dmyformat" style="color: red; cursor: pointer;">DD/MM/YYYY</a>&nbsp;|&nbsp;<a href="#" class="mdyformat">MM/DD/YYYY</a>{% endif %}{% if date_format == 'm/d/Y' %}<a href="#" class="dmyformat">DD/MM/YYYY</a>&nbsp;|&nbsp;<a href="#" class="mdyformat" style="color: red; cursor: pointer;">MM/DD/YYYY</a>{% endif %}
+    </div>
+    <div id="content-wrap">
+        <h1>Usage History</h1>
+        <br/>
+        <br/>
+        <h2>License</h2>
+        <form method="POST" action="{% url daily_usage_report %}">
+        {% csrf_token %}
+        {% if license %}
+            <table class="key">
+                <thead>
+                    <tr>
+                        <th>Start date</th>
+                        <th>Expiration date</th>
+                        <th>Credits bought</th>
+                        <th>Credits left</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="start_date">{{ license.start_date|date:date_format }}</td>
+                        <td class="end_date">{{ license.end_date|date:date_format }}</td>
+                        <td class="number" style="text-align: right;">{{license.allowed_usage}}</td>
+                        <td class="number" style="text-align: right;">{{license.remaining_usage}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        {% endif %}
+        <br/>
+        <table><tbody>
+            <tr>
+                <td class="col1">
+                    Report&nbsp;Type&nbsp;<font color="red">*</font>
+                </td>
+                <td>
+                    <select name="report_type">
+                        {% if report_type == 'daily' %}
+                            <option value="daily" selected="selected">Daily usage</option>
+                        {% else %}
+                            <option value="daily">Daily usage</option>
+                        {% endif %}
+                        {% if report_type == 'total' %}
+                            <option value="total" selected="selected">Total usage</option>
+                        {% else %}
+                            <option value="total">Total usage</option>
+                        {% endif %}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    Start date&nbsp;<font color="red">*</font>
+                </td>
+                <td>
+                    {% if date_format == 'd/m/Y' %}
+                        <input type="" name="startDate" id="startDate" value="{{ startdate }}" size="15" onclick="displayDatePicker('startDate', false, 'dmy', '/');">
+                        <img id="startDateImg" src="{{STATIC_URL}}img/calendar.gif" width="16" height="15" align="absmiddle" onclick="displayDatePicker('startDate', false, 'dmy', '/');">
+                    {% else %}
+                        <input type="" name="startDate" id="startDate" value="{{ startdate }}" size="15" onclick="displayDatePicker('startDate', false, 'mdy', '/');">
+                        <img id="startDateImg" src="{{STATIC_URL}}img/calendar.gif" width="16" height="15" align="absmiddle" onclick="displayDatePicker('startDate', false, 'mdy', '/');">
+                    {% endif %}
+
+                </td>
+                <td class="dateformat">{% if date_format == 'd/m/Y' %}(DD/MM/YYYY){% else %}(MM/DD/YYYY){% endif %}</td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    End date&nbsp;<font color="red">*</font>
+                </td>
+                <td>
+                    {% if date_format == 'd/m/Y' %}
+                        <input type="" name="endDate" id="endDate" value="{{ enddate }}" size="15" onclick="displayDatePicker('endDate', false, 'dmy', '/');">
+                        <img id="endDateImg" src="{{STATIC_URL}}img/calendar.gif" width="16" height="15" align="absmiddle" onclick="displayDatePicker('endDate', false, 'dmy', '/');">
+                    {% else %}
+                        <input type="" name="endDate" id="endDate" value="{{ enddate }}" size="15" onclick="displayDatePicker('endDate', false, 'mdy', '/');">
+                        <img id="endDateImg" src="{{STATIC_URL}}img/calendar.gif" width="16" height="15" align="absmiddle" onclick="displayDatePicker('endDate', false, 'mdy', '/');">
+                    {% endif %}
+
+                </td>
+                <td class="dateformat1">{% if date_format == 'd/m/Y' %}(DD/MM/YYYY){% else %}(MM/DD/YYYY){% endif %}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input name="submitform" value="Submit" class="button" type="submit" id="submit_btn">
+                </td>
+            </tr>
+        </tbody></table>
+        </form>
+        {% if results %}
+        <br/>
+        <h2>Report Results</h2>
+        <br/>
+        <form method="POST" id="daily_form" class="daily_form" name="daily_form" action="">
+        {% csrf_token %}
+        <button class="export_csv" id="export_csv">Export</button>
+        <table width="700" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="700" height="20" colspan="2">&nbsp;</td>
+            </tr>
+        </table>
+        <table class="key" >
+            <thead>
+                <tr>
+                    <th class="col1">Day</th>
+                    <th class="col1">Valid</th>
+                    <th class="col1">Invalid</th>
+                    <th class="col1">Total</th>
+                    <th class="col1">Corrections</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in results %}
+                    <tr>
+                        <td>{{record.date}}</td>
+                        <td>{{record.valid}}</td>
+                        <td>{{record.invalid}}</td>
+                        <td>{{record.valid|add:record.invalid}}</td>
+                        <td>{{record.corrections}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        </form>
+        <br/><br/><br/>
+        {% endif %}
+        {% if summary %}
+        <br/>
+        <h2>Summary</h2>
+        <br/>
+        <form method="POST" id="total_form" class="total_form" action="">
+        {% csrf_token %}
+        <a class="export_pdf" id="export_pdf" href="{% url download_pdf %}">Download report</a>
+        <table width="700" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="700" height="20" colspan="2">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table width="700" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="700" height="22" bgcolor="#0e5785" style="color:#ffffff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold">&nbsp;Email Validation Summary</td>
+            </tr>
+            <tr>
+                <td width="700" height="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+        </table>
+        <table width="700" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="400" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">Start Date</td>
+                <td width="100" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ startdate }}</td>
+                <td width="200" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="400" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">End Date</td>
+                <td width="100" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ enddate }}</td>
+                <td width="200" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="400" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">Emails Submitted</td>
+                <td width="100" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ summary|emails_submitted|intcomma }}</td>
+                <td width="200" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="400" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">Credits Used</td>
+                <td width="100" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ summary|credits_used|intcomma }}</td>
+                <td width="200" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="700" height="20" colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="700" colspan="3">
+                    <table width="570" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="430" colspan="2" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">Valid Email Addresses</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ summary|valid_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ summary|valid_email_percent|floatformat:2 }}%</td>
+                        </tr>
+                        <tr>
+                            <td width="570" height="10" colspan="5" style="font-size:1px;line-height:1px">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="15" style="font-size:1px;line-height:1px">&nbsp;</td>
+                            <td width="415" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">Email addresses with syntax errors</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|syntax_error_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|syntax_error_email_percent|floatformat:2 }}%</td>
+                        </tr>
+                        <tr>
+                            <td width="15" style="font-size:1px;line-height:1px">&nbsp;</td>
+                            <td width="415" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">Email addresses that are suppressed</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|suppressed_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|suppressed_email_percent|floatformat:2 }}%</td>
+                        </tr>
+                        <tr>
+                            <td width="15" style="font-size:1px;line-height:1px">&nbsp;</td>
+                            <td width="415" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">Email addresses with invalid domains</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_domain_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_domain_email_percent|floatformat:2 }}%</td>
+                        </tr>
+                        <tr>
+                            <td width="15" style="font-size:1px;line-height:1px">&nbsp;</td>
+                            <td width="415" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">Email addresses with invalid usernames</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_username_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_username_email_percent|floatformat:2 }}%</td>
+                        </tr>
+                        <tr>
+                            <td width="430" colspan="2" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">Total Invalid Email Addresses</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px;border-top:1px solid #000000">{{ summary|total_invalid_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px;border-top:1px solid #000000">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px;border-top:1px solid #000000">{{ summary|total_invalid_email_percent|floatformat:2 }}%</td>
+                        </tr>
+                        <tr>
+                            <td width="570" height="10" colspan="5" style="font-size:1px;line-height:1px">&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" height="20" width="700">
+                    <table border="0" cellpadding="0" cellspacing="0" width="700">
+                        <tbody>
+                        <tr>
+                            <td width="430" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">Corrected Email Addresses</td>
+                            <td width="70" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ summary|corrected_email|intcomma }}</td>
+                            <td width="15" align="center" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">=</td>
+                            <td width="55" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">{{ summary|corrected_email_percent|floatformat:2 }}%</td>
+                            <td width="130" align="left" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px">&nbsp;of invalids</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td width="700" height="20" colspan="3">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table width="700" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="700" height="22" bgcolor="#0e5785" style="color:#ffffff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold">&nbsp;Email Validation Results by Status Code</td>
+            </tr>
+            <tr>
+                <td width="700" height="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+        </table>
+        <table width="700" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="40" valign="bottom" style="color:#111111;font-family:Arial, sans-serif;font-size:12px">Code</td>
+            <td width="390" valign="bottom" style="color:#111111;font-family:Arial, sans-serif;font-size:12px">Description</td>
+            <td width="60" align="right" valign="bottom" style="color:#111111;font-family:Arial, sans-serif;font-size:12px">Count</td>
+            <td width="80" align="right" valign="bottom" style="color:#111111;font-family:Arial, sans-serif;font-size:12px">Percent of<br />Submitted</td>
+            <td width="80" align="right" valign="bottom" style="color:#111111;font-family:Arial, sans-serif;font-size:12px">Percent of<br />Invalids</td>
+            <td width="50" rowspan="3" style="font-size:1px;line-height:1px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="650" height="1" colspan="5" bgcolor="#000000" style="font-size:1px;line-height:1px"></td>
+        </tr>
+        <tr>
+        <td width="650" colspan="5">
+        <table width="650" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="650" colspan="6" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:22px">Valid Emails (O)</td>
+            </tr>
+            {% for key, value in summary %}
+            {% if key >= 5 and key <= 50 %}
+            <tr>
+                <td width="30" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ key }}</td>
+                <td width="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td width="390" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ codes|hash:key }}</td>
+                <td width="60" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ value|intcomma }}</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|submitted_percent:key|floatformat:2 }}%</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">&nbsp;</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+
+        <table width="650" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="650" colspan="6" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:22px">Syntax Errors (S)</td>
+            </tr>
+            {% for key, value in summary %}
+            {% if key >= 100 and key < 300 %}
+            <tr>
+                <td width="30" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ key }}</td>
+                <td width="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td width="390" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ codes|hash:key }}</td>
+                <td width="60" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ value|intcomma }}</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|submitted_percent:key|floatformat:2 }}%</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_percent:key|floatformat:2 }}%</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+
+        <table width="650" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="650" colspan="6" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:22px">Domain Errors (D)</td>
+            </tr>
+            {% for key, value in summary %}
+            {% if key >= 300 and key < 400 %}
+            <tr>
+                <td width="30" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ key }}</td>
+                <td width="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td width="390" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ codes|hash:key }}</td>
+                <td width="60" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ value|intcomma }}</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|submitted_percent:key|floatformat:2 }}%</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_percent:key|floatformat:2 }}%</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+
+        <table width="650" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="650" colspan="6" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:22px">Mailbox Errors (M)</td>
+            </tr>
+            {% for key, value in summary %}
+            {% if key >= 400 and key < 500 %}
+            <tr>
+                <td width="30" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ key }}</td>
+                <td width="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td width="390" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ codes|hash:key }}</td>
+                <td width="60" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ value|intcomma }}</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|submitted_percent:key|floatformat:2 }}%</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_percent:key|floatformat:2 }}%</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+
+        <table width="650" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="650" colspan="6" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;font-weight:bold;line-height:22px">Suppressions (U)</td>
+            </tr>
+            {% for key, value in summary %}
+            {% if key >= 500 and key < 600 %}
+            <tr>
+                <td width="30" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ key }}</td>
+                <td width="10" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td width="390" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ codes|hash:key }}</td>
+                <td width="60" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ value|intcomma }}</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|submitted_percent:key|floatformat:2 }}%</td>
+                <td width="80" align="right" style="color:#111111;font-family:Arial, sans-serif;font-size:12px;line-height:18px">{{ summary|invalid_percent:key|floatformat:2 }}%</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+        </td>
+        </tr>
+        <tr>
+            <td width="650" headers="20" colspan="5">&nbsp;</td>
+        </tr>
+        </table>
+        </form>
+        {% endif %}
+        {% if status_code == '15' %}
+        <br/>
+        <p>No Data Found.</p>
+        <br/>
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block extra_script %}
+<script src="{{STATIC_URL}}js/date-picker-en.js"></script>
+<script>
+
+$(document).ready(function(){
+
+})
+
+var dtCh= "/";
+var minYear=1900;
+var maxYear=2100;
+
+function isInteger(s){
+    var i;
+    for (i = 0; i < s.length; i++){
+        // Check that current character is number.
+        var c = s.charAt(i);
+        if (((c < "0") || (c > "9"))) return false;
+    }
+    // All characters are numbers.
+    return true;
+}
+
+function stripCharsInBag(s, bag){
+    var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not in bag, append to returnString.
+    for (i = 0; i < s.length; i++){
+        var c = s.charAt(i);
+        if (bag.indexOf(c) == -1) returnString += c;
+    }
+    return returnString;
+}
+
+function daysInFebruary (year){
+    // February has 29 days in any year evenly divisible by four,
+    // EXCEPT for centurial years which are not also divisible by 400.
+    return (((year % 4 == 0) && ( (!(year % 100 == 0)) || (year % 400 == 0))) ? 29 : 28 );
+}
+
+function isDateDDMMYYYY(dtStr){
+    var daysInMonth = new Array(0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+    var pos1=dtStr.indexOf(dtCh);
+    var pos2=dtStr.indexOf(dtCh,pos1+1);
+    var strDay=dtStr.substring(0,pos1);
+    var strMonth=dtStr.substring(pos1+1,pos2);
+    var strYear=dtStr.substring(pos2+1);
+    strYr=strYear;
+    if (strDay.charAt(0)=="0" && strDay.length>1) strDay=strDay.substring(1);
+    if (strMonth.charAt(0)=="0" && strMonth.length>1) strMonth=strMonth.substring(1);
+    for (var i = 1; i <= 3; i++) {
+        if (strYr.charAt(0)=="0" && strYr.length>1) strYr=strYr.substring(1);
+    }
+    month=parseInt(strMonth);
+    day=parseInt(strDay);
+    year=parseInt(strYr);
+    if (pos1==-1 || pos2==-1){
+        return false;
+    }
+    if (strMonth.length<1 || month<1 || month>12){
+        return false;
+    }
+    if (strDay.length<1 || day<1 || day>31 || (month==2 && day>daysInFebruary(year)) || day > daysInMonth[month]){
+        return false;
+    }
+    if (strYear.length != 4 || year==0 || year<minYear || year>maxYear){
+        return false;
+    }
+    if (dtStr.indexOf(dtCh,pos2+1)!=-1 || isInteger(stripCharsInBag(dtStr, dtCh))==false){
+        return false;
+    }
+    return true;
+}
+
+function isDateMMDDYYYY(dtStr){
+    var daysInMonth = new Array(0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+    var pos1=dtStr.indexOf(dtCh);
+    var pos2=dtStr.indexOf(dtCh,pos1+1);
+    var strMonth=dtStr.substring(0,pos1);
+    var strDay=dtStr.substring(pos1+1,pos2);
+    var strYear=dtStr.substring(pos2+1);
+    strYr=strYear;
+    if (strDay.charAt(0)=="0" && strDay.length>1) strDay=strDay.substring(1);
+    if (strMonth.charAt(0)=="0" && strMonth.length>1) strMonth=strMonth.substring(1);
+    for (var i = 1; i <= 3; i++) {
+        if (strYr.charAt(0)=="0" && strYr.length>1) strYr=strYr.substring(1);
+    }
+    month=parseInt(strMonth);
+    day=parseInt(strDay);
+    year=parseInt(strYr);
+    if (pos1==-1 || pos2==-1){
+        return false;
+    }
+    if (strMonth.length<1 || month<1 || month>12){
+        return false;
+    }
+    if (strDay.length<1 || day<1 || day>31 || (month==2 && day>daysInFebruary(year)) || day > daysInMonth[month]){
+        return false;
+    }
+    if (strYear.length != 4 || year==0 || year<minYear || year>maxYear){
+        return false;
+    }
+    if (dtStr.indexOf(dtCh,pos2+1)!=-1 || isInteger(stripCharsInBag(dtStr, dtCh))==false){
+        return false;
+    }
+    return true;
+}
+
+$("#submit_btn").click( function(event) {
+    var startDate = $("#startDate").val();
+    var endDate = $("#endDate").val();
+    if ($('.dateformat').text() == '(DD/MM/YYYY)'){
+        if (isDateDDMMYYYY(startDate) == false){
+            alert("Please enter a valid Start date");
+            event.preventDefault();
+            return false;
+        }
+        if (isDateDDMMYYYY(endDate) == false){
+            alert("Please enter a valid End date");
+            event.preventDefault();
+            return false;
+        }
+    }
+    if ($('.dateformat').text() == '(MM/DD/YYYY)'){
+        if (isDateMMDDYYYY(startDate) == false){
+            alert("Please enter a valid Start date");
+            event.preventDefault();
+            return false;
+        }
+        if (isDateMMDDYYYY(endDate) == false){
+            alert("Please enter a valid End date");
+            event.preventDefault();
+            return false;
+        }
+    }
+
+    var sDate = startDate.split('/');
+    var eDate = endDate.split('/');
+
+    if ($('.dateformat').text() == '(DD/MM/YYYY)')
+    {
+        if (parseInt(sDate[2]+sDate[1]+sDate[0]) > parseInt(eDate[2]+eDate[1]+eDate[0])){
+            alert("Please enter an End Date that is after the Start Date.")
+            event.preventDefault();
+            return false;
+        }
+    }
+    if ($('.dateformat').text() == '(MM/DD/YYYY)')
+    {
+        if (parseInt(sDate[2]+sDate[0]+sDate[1]) > parseInt(eDate[2]+eDate[0]+eDate[1])){
+            alert("Please enter an End Date that is after the Start Date.")
+            event.preventDefault();
+            return false;
+        }
+    }
+    /*if (sDate > eDate){
+        alert("Please enter an End Date that is after the Start Date.")
+        event.preventDefault();
+    }*/
+})
+
+$('.dmyformat').live('click',function(event){
+    if ($('.dateformat').text() == '(DD/MM/YYYY)')
+    {
+        event.preventDefault();
+        return false;
+    }
+    var data = {'date_format': 'd/m/Y', csrfmiddlewaretoken: '{{ csrf_token }}'}
+    $.ajax({
+        type:"POST",
+        url:"/report/daily/",
+        dataType: "json",
+        data: data,
+        success: function(json)
+        {
+            $("table.key tr td.start_date").text(json.start_date);
+            $("table.key tr td.end_date").text(json.end_date);
+            $('.mdyformat').css('color', '#395962');
+            $('.mdyformat').css('cursor', 'pointer');
+            $('.dmyformat').css('color', 'red');
+            $('.dmyformat').css('cursor', 'default');
+            $('.dateformat').text('(DD/MM/YYYY)');
+            $('.dateformat1').text('(DD/MM/YYYY)');
+            $("#startDate").attr('onclick', "displayDatePicker('startDate', false, 'dmy', '/');");
+            $("#startDateImg").attr('onclick', "displayDatePicker('startDate', false, 'dmy', '/');");
+            $("#endDate").attr('onclick', "displayDatePicker('endDate', false, 'dmy', '/');");
+            $("#endDateImg").attr('onclick', "displayDatePicker('endDate', false, 'dmy', '/');");
+            var a = $('#startDate').val().toUpperCase().split("/");
+            $('#startDate').val(a[1] + "/" + a[0] + "/" + a[2]);
+            a = $('#endDate').val().toUpperCase().split("/");
+            $('#endDate').val(a[1] + "/" + a[0] + "/" + a[2]);
+        }
+    });
+})
+
+$('.mdyformat').live('click',function(event){
+    if ($('.dateformat').text() == '(MM/DD/YYYY)')
+    {
+        event.preventDefault();
+        return false;
+    }
+    var data = {'date_format': 'm/d/Y', csrfmiddlewaretoken: '{{ csrf_token }}'}
+    $.ajax({
+        type:"POST",
+        url:"/report/daily/",
+        dataType: "json",
+        data: data,
+        success: function(json)
+        {
+            $("table.key tr td.start_date").text(json.start_date);
+            $("table.key tr td.end_date").text(json.end_date);
+            $('.dmyformat').css('color', '#395962');
+            $('.dmyformat').css('cursor', 'pointer');
+            $('.mdyformat').css('color', 'red');
+            $('.mdyformat').css('cursor', 'default');
+            $('.dateformat').text('(MM/DD/YYYY)');
+            $('.dateformat1').text('(MM/DD/YYYY)');
+
+            $("#startDate").attr('onclick', "displayDatePicker('startDate', false, 'mdy', '/');");
+            $("#startDateImg").attr('onclick', "displayDatePicker('startDate', false, 'mdy', '/');");
+            $("#endDate").attr('onclick', "displayDatePicker('endDate', false, 'mdy', '/');");
+            $("#endDateImg").attr('onclick', "displayDatePicker('endDate', false, 'mdy', '/');");
+            var a = $('#startDate').val().toUpperCase().split("/");
+            $('#startDate').val(a[1] + "/" + a[0] + "/" + a[2]);
+            a = $('#endDate').val().toUpperCase().split("/");
+            $('#endDate').val(a[1] + "/" + a[0] + "/" + a[2]);
+        }
+    });
+})
+
+$('#startDate').live('click', function(e){
+    /*if ($('.dateformat').text() == '(MM/DD/YYYY)')
+        displayDatePicker('startDate', false, 'mdy', '/');
+    else
+        displayDatePicker('startDate', false, 'dmy', '/');*/
+})
+
+$('#endDate').live('click', function(e){
+    /*if ($('.dateformat').text() == '(MM/DD/YYYY)')
+        displayDatePicker('endDate', false, 'mdy', '/');
+    else
+        displayDatePicker('endDate', false, 'dmy', '/');*/
+})
+
+$('.export_csv').live('click', function(event){
+    var serializedData = [];
+    var index = 0;
+
+    serializedData[index] = [];
+    $('#daily_form table.key thead tr th').each(function(){
+        serializedData[index].push($(this).html());
+    });
+    $('#daily_form table.key tbody tr').each(function(){
+        index += 1;
+        serializedData[index] = [];
+        $(this).find('td').each(function(){
+            serializedData[index].push($(this).html());
+        });
+    });
+    console.log(serializedData);
+    $.ajax({
+        type:"POST",
+        url:"/report/download_csv/",
+        dataType: "json",
+        data: {'csvdata': serializedData, csrfmiddlewaretoken: '{{ csrf_token }}'},
+        success: function(response) {
+            alert("asdf");
+        }
+    });
+    event.preventDefault();
+})
+
+$('.export_pdf').live('click', function(event){
+    $.ajax({
+        type:"POST",
+        url:"/report/download_pdf/",
+        dataType: "json",
+        data: {csrfmiddlewaretoken: '{{ csrf_token }}'},
+        success: function(response) {
+            alert("dd");
+        }
+    });
+    event.preventDefault();
+})
+
+</script>
+{% endblock %}

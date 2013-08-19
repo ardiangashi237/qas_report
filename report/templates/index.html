@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Home - QAS On Demand{% endblock %}
+
+{% block main_content %}
+    <div id="content-wrap">
+        <h1>QAS On Demand</h1>
+        <p>Welcome to the web portal for QAS On Demand.</p>
+        <div id="loginbox">
+            <p class="subhead">Login</p>
+            <p>Please enter your username and password below and click 'Submit'.</p>
+            <form id="formLogin" action="{% url main_index %}" method="POST">
+                {% csrf_token %}
+                <table id="LoginTable">
+                    <colgroup>
+                        <col class="col1">
+                        <col class="col2">
+                    </colgroup>         
+                    <tbody>
+                    <tr id="nameRow">
+                        <td><label id="LblUsername">Email address</label></td>
+                        <td><input id="FldUsername" type="text" class="required" name="username" value="" size="35" maxlength="100"></td>
+                    </tr>
+                    <tr id="passwordRow">
+                        <td><label id="LblPassword">Password</label></td>
+                        <td><input id="FldPasswd" type="password" class="required" name="license" value="" maxlength="16"></td>
+                    </tr>
+                    <tr id="submitRow">
+                        <td>&nbsp;</td>
+                        <td>
+                            <input id="BtnSubmit" type="submit" value="Submit" class="button">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_script %}
+<script>
+$(document).ready( function(){
+	var error = "{{error}}";
+	if ( error != "" ) {
+		alert(error);
+	}
+})
+</script>
+{% endblock %}

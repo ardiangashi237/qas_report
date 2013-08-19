@@ -1,0 +1,6 @@
+.project
+.pydevproject
+database.db
+qas/local_settings.py
+*.pyc
+.settings

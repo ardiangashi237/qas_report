@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+    {% block title %}{% endblock %}
+</title>
+
+<link rel="shortcut icon" href="{{STATIC_URL}}img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="{{STATIC_URL}}css/styles.css" />
+{% block extra_style %}{% endblock %}
+</head>
+<body>
+    <div id="site-wrapper">
+        <div id="header-logos">
+            <div id="qas-logo"><a href="{% url main_index %}"><img src="{{STATIC_URL}}img/experian-logo.gif" alt="Experian" width="176" height="47" border="0" title="Experian"></a></div>
+            <div id="ondemand-logo"><a href="{% url main_index %}"><img src="{{STATIC_URL}}img/ondemand-logo.gif" width="345" height="69" alt="QAS On Demand" title="QAS On Demand" border="0"></a></div>
+        </div>
+        <div id="top-nav">
+            <img src="{{STATIC_URL}}img/topnav01.png" width="7" height="27" class="topnav1" alt="">
+            {% if not user_authenticated %}
+            <div id="top-links">
+                <ul id="nav" class="nav">
+                    <li class="divider"><a href="{% url main_index %}">Home</a></li>
+                    <li><a href="{% url contact %}">Contact us</a></li>
+                </ul>
+            </div>
+            {% else %}
+            <div id="logout">
+                <span style="color:red;">{{user_name}}</span>&nbsp;|&nbsp;
+                <a href="{% url logout %}">Log out</a>
+            </div>
+            {% endif %}
+        </div>
+        <img src="{{STATIC_URL}}img/topnav02.png" width="7" height="27" class="topnav2" alt="">
+        {% block main_content %}
+        {% endblock %}
+        <!-- 
+        <div id="footer-wrap">
+            <div id="ft01"><img src="{{STATIC_URL}}img/footer1.gif" width="7" height="47" alt=""></div>
+            <div id="ft02">
+                <div id="ft02-left">
+                    <ul id="footer-links">
+                        <li class="footer0"><a href="{% url main_index %}">Home</a></li>
+                        <li class="footer2"><a href="{% url contact %}">Contact us</a></li>
+                    </ul>
+                </div>
+                <div id="ft02-right"> 2013 QAS Ltd. All rights reserved</div>
+            </div>
+            <div id="ft03"><img src="{{STATIC_URL}}img/footer2.gif" width="7" height="47" alt=""></div>
+        </div>
+        -->
+    </div>
+</body>
+
+<script src="{{STATIC_URL}}js/jquery-1.7.2.js"></script>
+{% block extra_script %}{% endblock %}
+</html>

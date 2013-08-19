@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="471c169e-8af7-4c9a-91f9-3f18287ee8e7" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\CHANGES.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\INSTALL.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\VERSION.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\DarkGarden-copying-gpl.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\DarkGarden-copying.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\DarkGarden-readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\DarkGarden.sfd" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\DarkGardenMK.afm" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\DarkGardenMK.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\Vera.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\VeraBI.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\VeraBd.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\VeraIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_a______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_ab_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_abi____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_ai_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_eb_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_ebi____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_ei_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\_er_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\bitstream-vera-license.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\cob_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\cobo____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\com_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\coo_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\sy______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\zd______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\zx______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\fonts\zy______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\code128.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\code39.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\code93.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\common.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\eanbc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\fourstate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\lto.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\qr.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\test.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\usps.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\usps4s.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\barcode\widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\areas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\axes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\barcharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\dotbox.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\doughnut.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\legends.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\linecharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\lineplots.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\piecharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\slidebox.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\spider.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\textlabels.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\charts\utils3d.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\renderPDF.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\renderPM.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\renderPS.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\renderSVG.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\renderbase.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\bubble.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\clustered_bar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\clustered_column.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\excelcolors.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\exploded_pie.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\filled_radar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\line_chart.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\linechart_with_markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\radar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\runall.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\scatter.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\scatter_lines.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\scatter_lines_markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\simple_pie.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\stacked_bar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\samples\stacked_column.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\shapes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\testdrawings.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\testshapes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgetbase.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\eventcal.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\flags.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\grids.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\signsandsymbols.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\graphics\widgets\table.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\PyFontify.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\abag.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\arciv.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\attrmap.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\boxstuff.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\codecharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\colors.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\corp.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\enums.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\extformat.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\fontfinder.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\fonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\formatters.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\geomutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\hyphen.mashed" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\logger.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\normalDate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\pagesizes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\pdfencrypt.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\pygments2xpre.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\randomtext.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\rltempfile.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\rparsexml.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\sequencer.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\set_ops.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\styles.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\testutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\textsplit.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\units.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\validators.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\xmllib.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\lib\yaml.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_can_cmap_data.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_cidfontdata.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_macexpert.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_macroman.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_pdfdoc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_standard.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_symbol.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_winansi.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_enc_zapfdingbats.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_courier.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_courierbold.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_courierboldoblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_courieroblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_helvetica.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_helveticabold.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_helveticaboldoblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_helveticaoblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_symbol.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_timesbold.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_timesbolditalic.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_timesitalic.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_timesroman.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\_fontdata_widths_zapfdingbats.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\cidfonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\pdfdoc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\pdfform.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\pdfmetrics.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\pdfpattern.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\pdfutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\rl_codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfbase\ttfonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\canvas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\pathobject.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\pdfgeom.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\pdfimages.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\pycanvas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\pdfgen\textobject.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\doctemplate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\figures.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\flowables.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\frames.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\para.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\paragraph.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\paraparser.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\tableofcontents.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\tables.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\platypus\xpreformatted.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\build\lib.win32-2.7\reportlab\rl_config.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\colors\colortest.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\gadflypaper\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\gadflypaper\gfe.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\odyssey\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\odyssey\dodyssey.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\odyssey\fodyssey.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\odyssey\odyssey.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\odyssey\odyssey.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\rlzope\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\rlzope\rlzope.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\stdfonts\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\stdfonts\stdfonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\demos\tests\testdemos.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\genAll.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\gen_epydoc" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\Edit_Prefs.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\Python_21.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\Python_21_HINT.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\fileExchange.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\jpn.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\jpnchars.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\lj8100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\redsquare.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\replogo.a85" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\replogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\images\testimg.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\make.bat" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\reference\build.bat" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\reference\genreference.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\reference\reference.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\_static\basic.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\_static\default.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\_templates\layout.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\_templates\page.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\conf.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\graphics.rst" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\index.rst" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\lib.rst" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\pdfgen.rst" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\source\platypus.rst" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\app_demos.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch1_intro.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch2_graphics.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch2a_fonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch3_pdffeatures.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch4_platypus_concepts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch5_paragraphs.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch6_tables.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\ch7_custom.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\genuserguide.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\graph_charts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\graph_concepts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\graph_intro.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\graph_shapes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\graph_widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\docs\userguide\testfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\ez_setup.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\pip-egg-info\reportlab.egg-info\PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\pip-egg-info\reportlab.egg-info\SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\pip-egg-info\reportlab.egg-info\dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\pip-egg-info\reportlab.egg-info\top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\setup.cfg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\setup.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\MANIFEST.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGarden-changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGarden-copying-gpl.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGarden-copying.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGarden-readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGarden.sfd" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGardenMK.afm" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\DarkGardenMK.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\Vera.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\VeraBI.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\VeraBd.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\VeraIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_a______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_ab_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_abi____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_ai_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_eb_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_ebi____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_ei_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\_er_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\bitstream-vera-license.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\cob_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\cobo____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\com_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\coo_____.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\sy______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\zd______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\zx______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\fonts\zy______.pfb" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\README" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\TODO" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\VERSION" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\code128.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\code39.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\code93.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\common.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\eanbc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\fourstate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\lto.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\qr.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\test.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\usps.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\usps4s.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\barcode\widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\areas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\axes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\barcharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\dotbox.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\doughnut.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\legends.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\linecharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\lineplots.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\piecharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\slidebox.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\spider.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\textlabels.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\charts\utils3d.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\renderPDF.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\renderPM.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\renderPS.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\renderSVG.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\renderbase.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\bubble.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\clustered_bar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\clustered_column.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\excelcolors.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\exploded_pie.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\filled_radar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\line_chart.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\linechart_with_markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\radar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\runall.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\scatter.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\scatter_lines.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\scatter_lines_markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\simple_pie.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\stacked_bar.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\samples\stacked_column.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\shapes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\testdrawings.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\testshapes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgetbase.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\eventcal.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\flags.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\grids.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\signsandsymbols.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\graphics\widgets\table.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\PyFontify.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\abag.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\arciv.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\attrmap.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\boxstuff.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\codecharts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\colors.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\corp.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\enums.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\extformat.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\fontfinder.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\fonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\formatters.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\geomutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\logger.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\normalDate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\pagesizes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\pdfencrypt.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\pygments2xpre.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\randomtext.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\rltempfile.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\rparsexml.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\sequencer.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\set_ops.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\styles.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\testutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\textsplit.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\units.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\validators.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\xmllib.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\lib\yaml.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_can_cmap_data.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_cidfontdata.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_macexpert.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_macroman.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_pdfdoc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_standard.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_symbol.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_winansi.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_enc_zapfdingbats.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_courier.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_courierbold.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_courierboldoblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_courieroblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_helvetica.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_helveticabold.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_helveticaboldoblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_helveticaoblique.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_symbol.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_timesbold.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_timesbolditalic.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_timesitalic.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_timesroman.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\_fontdata_widths_zapfdingbats.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\cidfonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\pdfdoc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\pdfform.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\pdfmetrics.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\pdfpattern.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\pdfutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\rl_codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfbase\ttfonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\canvas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\pathobject.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\pdfgeom.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\pdfimages.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\pycanvas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\pdfgen\textobject.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\doctemplate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\figures.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\flowables.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\frames.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\para.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\paragraph.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\paraparser.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\tableofcontents.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\tables.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\platypus\xpreformatted.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\reportlab\rl_config.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\README" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\MANIFEST.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\_renderPM.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-dict.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-dict.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-misc.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-namecontext.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-namecontext.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-parset1.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-parset1.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-region.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-region.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\gt1-value.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\parseAFM.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\gt1\parseAFM.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\COPYING" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\NEWS" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\README" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\README.CVS" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\acconfig.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_affine.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_affine.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_alphagamma.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_alphagamma.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_bpath.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_bpath.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_config.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_filterlevel.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_gray_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_gray_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_misc.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_misc.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_pathcode.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_pixbuf.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_pixbuf.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_point.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rect.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rect.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rect_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rect_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rect_uta.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rect_uta.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render_gradient.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render_gradient.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render_mask.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render_mask.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_render_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_a_affine.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_a_affine.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_affine.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_affine.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_affine_private.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_affine_private.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_bitmap_affine.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_bitmap_affine.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_pixbuf_affine.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_pixbuf_affine.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_rgba_affine.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_rgba_affine.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgb_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgba.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_rgba.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_intersect.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_intersect.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_ops.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_ops.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_point.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_point.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_render_aa.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_render_aa.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_vpath.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_vpath.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_vpath_stroke.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_vpath_stroke.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_wind.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_svp_wind.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_ops.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_ops.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_rect.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_rect.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_vpath.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_uta_vpath.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath_bpath.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath_bpath.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath_dash.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath_dash.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath_svp.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\art_vpath_svp.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\autogen.sh" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\config.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\configure.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\gen_art_config.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libart-2.0.pc.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libart-config.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libart-features.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libart-features.h.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libart.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libart.m4" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\libartConf.sh.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\test_gradient.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\testart.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\libart_lgpl\testuta.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\pfm.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\setup.cfg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\setup.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\test_renderPM.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\renderPM\tr.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\MANIFEST.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\Makefile.pre.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\README.extensions" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\Setup.in" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\__BUILD.dsw" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\_rl_accel.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\_rl_accel.dsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\_rl_accel.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\hnjalloc.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\hnjalloc.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\hyphen.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\hyphen.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\hyphen.mashed" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\pyHnj.dsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\pyHnjmodule.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\sgmlop.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\sgmlop.dsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\getrc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\t0.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\t1.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\t2.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\t3.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\t4.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\src\rl_addons\rl_accel\tests\t5.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\00readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\alpha_test.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\pythonpowered.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\runAll.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\solid_red_alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\tall_red.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_charts_textlabels.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_crypto_algorithms.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_docs_build.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_docstrings.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_encrypt.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_extra.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_geomutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_graphics_charts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_graphics_images.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_graphics_layout.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_graphics_speed.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_hello.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_images.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_invariant.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_lib_colors.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_lib_sequencer.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_lib_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_lib_validators.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_multibyte_chs.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_multibyte_cht.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_multibyte_jpn.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_multibyte_kor.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_paragraphs.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_encodings.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_fontembed.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_pdfdoc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_pdfmetrics.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_pdfutils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_postscript.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfbase_ttfonts.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfencryption.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfgen_callback.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfgen_general.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfgen_links.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfgen_overprint.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfgen_pagemodes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pdfgen_pycanvas.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_accum.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_breaking.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_cjk_wrap.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_general.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_indents.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_index.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_leftright.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_lists.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_paragraphs.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_paraparser.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_pleaseturnover.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_preformatted.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_programming.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_tables.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_toc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_wrapping.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_platypus_xref.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_pyfiles.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_renderSVG.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_rl_accel.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_source_chars.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_table_layout.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_tools_pythonpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_widgetbase_tpc.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tests\test_widgets_grids.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\README" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\README" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\codegrab.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\docpy.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\examples.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\graphdocpy.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\rl_doc_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\rltemplate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\stylesheet.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\t_parse.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\yaml.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\docco\yaml2pdf.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\README" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\customshapes.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\examples.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\figures.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\htu.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\leftlogo.a85" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\leftlogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\lj8100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\monterey.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\outline.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\pplogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\python.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\pythonpoint.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\slidebox.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\spectrum.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\demos\vertpython.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\pythonpoint.dtd" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\pythonpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\stdparser.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\styles\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\styles\horrible.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\styles\htu.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\styles\modern.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\styles\projection.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\pythonpoint\styles\standard.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\utils\add_bleed.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\Python\qas\build\reportlab\tools\utils\dumpttf.py" afterPath="" />
+    </list>
+    <ignored path="qas.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="23" selection-start="6975" selection-end="6975" vertical-scroll-proportion="-3.16">
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily_report.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/report/templates/daily_report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="458" column="65" selection-start="27560" selection-end="27560" vertical-scroll-proportion="0.5443235">
+              <folding>
+                <element signature="e#454#490#0" expanded="true" />
+                <element signature="e#691#727#0" expanded="true" />
+                <element signature="e#7206#7289#0" expanded="true" />
+                <element signature="e#7405#7442#0" expanded="true" />
+                <element signature="e#7610#7710#0" expanded="true" />
+                <element signature="e#7773#7873#0" expanded="true" />
+                <element signature="e#7927#7964#0" expanded="true" />
+                <element signature="e#8044#8144#0" expanded="true" />
+                <element signature="e#8205#8305#0" expanded="true" />
+                <element signature="e#8357#8394#0" expanded="true" />
+                <element signature="e#8474#8574#0" expanded="true" />
+                <element signature="e#8643#8743#0" expanded="true" />
+                <element signature="e#8821#8858#0" expanded="true" />
+                <element signature="e#8938#9038#0" expanded="true" />
+                <element signature="e#9103#9203#0" expanded="true" />
+                <element signature="e#9277#9314#0" expanded="true" />
+                <element signature="e#9678#9778#0" expanded="true" />
+                <element signature="e#9863#9963#0" expanded="true" />
+                <element signature="e#10062#10162#0" expanded="true" />
+                <element signature="e#10227#10327#0" expanded="true" />
+                <element signature="e#10509#10546#0" expanded="true" />
+                <element signature="e#10661#10698#0" expanded="true" />
+                <element signature="e#10755#10838#0" expanded="true" />
+                <element signature="e#10936#11019#0" expanded="true" />
+                <element signature="e#11125#11208#0" expanded="true" />
+                <element signature="e#11273#11356#0" expanded="true" />
+                <element signature="e#11520#11557#0" expanded="true" />
+                <element signature="e#11614#11697#0" expanded="true" />
+                <element signature="e#11796#11879#0" expanded="true" />
+                <element signature="e#11983#12066#0" expanded="true" />
+                <element signature="e#12131#12214#0" expanded="true" />
+                <element signature="e#12376#12413#0" expanded="true" />
+                <element signature="e#12470#12553#0" expanded="true" />
+                <element signature="e#12653#12736#0" expanded="true" />
+                <element signature="e#12844#12927#0" expanded="true" />
+                <element signature="e#12992#13075#0" expanded="true" />
+                <element signature="e#13241#13278#0" expanded="true" />
+                <element signature="e#13335#13418#0" expanded="true" />
+                <element signature="e#13520#13603#0" expanded="true" />
+                <element signature="e#13713#13796#0" expanded="true" />
+                <element signature="e#13861#13944#0" expanded="true" />
+                <element signature="e#14125#14225#0" expanded="true" />
+                <element signature="e#14318#14447#0" expanded="true" />
+                <element signature="e#14554#14683#0" expanded="true" />
+                <element signature="e#14748#14877#0" expanded="true" />
+                <element signature="e#15067#15104#0" expanded="true" />
+                <element signature="e#15478#15578#0" expanded="true" />
+                <element signature="e#15667#15767#0" expanded="true" />
+                <element signature="e#15870#15970#0" expanded="true" />
+                <element signature="e#16035#16135#0" expanded="true" />
+                <element signature="e#16251#16351#0" expanded="true" />
+                <element signature="e#16778#16861#0" expanded="true" />
+                <element signature="e#16992#17029#0" expanded="true" />
+                <element signature="e#17204#17270#0" expanded="true" />
+                <element signature="e#17325#17391#0" expanded="true" />
+                <element signature="e#17466#17532#0" expanded="true" />
+                <element signature="e#17601#17667#0" expanded="true" />
+                <element signature="e#17756#17822#0" expanded="true" />
+                <element signature="e#17892#17929#0" expanded="true" />
+                <element signature="e#18038#18075#0" expanded="true" />
+                <element signature="e#18278#18378#0" expanded="true" />
+                <element signature="e#18569#18652#0" expanded="true" />
+                <element signature="e#18699#18736#0" expanded="true" />
+                <element signature="e#18781#18864#0" expanded="true" />
+                <element signature="e#18936#19019#0" expanded="true" />
+                <element signature="e#19091#19174#0" expanded="true" />
+                <element signature="e#19276#19359#0" expanded="true" />
+                <element signature="e#19589#19689#0" expanded="true" />
+                <element signature="e#19883#19966#0" expanded="true" />
+                <element signature="e#20013#20050#0" expanded="true" />
+                <element signature="e#20095#20178#0" expanded="true" />
+                <element signature="e#20250#20333#0" expanded="true" />
+                <element signature="e#20405#20488#0" expanded="true" />
+                <element signature="e#20590#20673#0" expanded="true" />
+                <element signature="e#20945#21045#0" expanded="true" />
+                <element signature="e#21239#21322#0" expanded="true" />
+                <element signature="e#21369#21406#0" expanded="true" />
+                <element signature="e#21451#21534#0" expanded="true" />
+                <element signature="e#21606#21689#0" expanded="true" />
+                <element signature="e#21761#21844#0" expanded="true" />
+                <element signature="e#21946#22029#0" expanded="true" />
+                <element signature="e#22301#22401#0" expanded="true" />
+                <element signature="e#22596#22679#0" expanded="true" />
+                <element signature="e#22726#22763#0" expanded="true" />
+                <element signature="e#22808#22891#0" expanded="true" />
+                <element signature="e#22963#23046#0" expanded="true" />
+                <element signature="e#23118#23201#0" expanded="true" />
+                <element signature="e#23303#23386#0" expanded="true" />
+                <element signature="e#23658#23758#0" expanded="true" />
+                <element signature="e#23951#24034#0" expanded="true" />
+                <element signature="e#24081#24118#0" expanded="true" />
+                <element signature="e#24163#24246#0" expanded="true" />
+                <element signature="e#24318#24401#0" expanded="true" />
+                <element signature="e#24473#24556#0" expanded="true" />
+                <element signature="e#24658#24741#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qas/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="27" selection-start="4377" selection-end="4377" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="82" selection-start="394" selection-end="412" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="52" selection-start="1297" selection-end="1306" vertical-scroll-proportion="-12.423077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templatetags.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/templatetags/templatetags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/qas/qas/settings.py" />
+        <option value="$PROJECT_DIR$/qas/qas/local_settings.py" />
+        <option value="$PROJECT_DIR$/qas/local_settings.py" />
+        <option value="$PROJECT_DIR$/report/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/report/urls.py" />
+        <option value="$PROJECT_DIR$/staticfiles/css/styles.css" />
+        <option value="$PROJECT_DIR$/report/templatetags/templatetags.py" />
+        <option value="$PROJECT_DIR$/qas/settings.py" />
+        <option value="$PROJECT_DIR$/report/views.py" />
+        <option value="$PROJECT_DIR$/report/templates/daily_report.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templatetags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\Python\qas\report" />
+      <recent name="E:\workspace\Python\qas\qas" />
+      <recent name="E:\workspace\Python\qas\report\templatetags" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="qas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="qas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="qas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="471c169e-8af7-4c9a-91f9-3f18287ee8e7" name="Default" comment="" />
+      <created>1363806835338</created>
+      <updated>1363806835338</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15473442" sideWeight="0.34944922" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28290993" sideWeight="0.30905753" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.04161567" sideWeight="0.84526557" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17747858" sideWeight="0.28637412" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17747858" sideWeight="0.5508083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17747858" sideWeight="0.7829099" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15473442" sideWeight="0.6462668" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22632794" sideWeight="0.4632803" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2655889" sideWeight="0.4137087" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/report/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="40" selection-start="15964" selection-end="16335" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bidding - doc/2013.3/3.18(python)/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="140" selection-start="13398" selection-end="13398" vertical-scroll-proportion="0.6528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/js/date-picker-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="9" selection-start="7077" selection-end="7077" vertical-scroll-proportion="0.34335443" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qas/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/template/defaulttags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1196" column="4" selection-start="42388" selection-end="42388" vertical-scroll-proportion="0.3328823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="115" selection-start="17900" selection-end="17900" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/core/urlresolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="421" column="4" selection-start="17184" selection-end="17184" vertical-scroll-proportion="0.33285302">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="52" selection-start="1297" selection-end="1306" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="82" selection-start="394" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/templatetags/templatetags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qas/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="27" selection-start="4377" selection-end="4377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="23" selection-start="6975" selection-end="6975" vertical-scroll-proportion="-3.16">
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/templates/daily_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="458" column="65" selection-start="27560" selection-end="27560" vertical-scroll-proportion="0.5443235">
+          <folding>
+            <element signature="e#454#490#0" expanded="true" />
+            <element signature="e#691#727#0" expanded="true" />
+            <element signature="e#7206#7289#0" expanded="true" />
+            <element signature="e#7405#7442#0" expanded="true" />
+            <element signature="e#7610#7710#0" expanded="true" />
+            <element signature="e#7773#7873#0" expanded="true" />
+            <element signature="e#7927#7964#0" expanded="true" />
+            <element signature="e#8044#8144#0" expanded="true" />
+            <element signature="e#8205#8305#0" expanded="true" />
+            <element signature="e#8357#8394#0" expanded="true" />
+            <element signature="e#8474#8574#0" expanded="true" />
+            <element signature="e#8643#8743#0" expanded="true" />
+            <element signature="e#8821#8858#0" expanded="true" />
+            <element signature="e#8938#9038#0" expanded="true" />
+            <element signature="e#9103#9203#0" expanded="true" />
+            <element signature="e#9277#9314#0" expanded="true" />
+            <element signature="e#9678#9778#0" expanded="true" />
+            <element signature="e#9863#9963#0" expanded="true" />
+            <element signature="e#10062#10162#0" expanded="true" />
+            <element signature="e#10227#10327#0" expanded="true" />
+            <element signature="e#10509#10546#0" expanded="true" />
+            <element signature="e#10661#10698#0" expanded="true" />
+            <element signature="e#10755#10838#0" expanded="true" />
+            <element signature="e#10936#11019#0" expanded="true" />
+            <element signature="e#11125#11208#0" expanded="true" />
+            <element signature="e#11273#11356#0" expanded="true" />
+            <element signature="e#11520#11557#0" expanded="true" />
+            <element signature="e#11614#11697#0" expanded="true" />
+            <element signature="e#11796#11879#0" expanded="true" />
+            <element signature="e#11983#12066#0" expanded="true" />
+            <element signature="e#12131#12214#0" expanded="true" />
+            <element signature="e#12376#12413#0" expanded="true" />
+            <element signature="e#12470#12553#0" expanded="true" />
+            <element signature="e#12653#12736#0" expanded="true" />
+            <element signature="e#12844#12927#0" expanded="true" />
+            <element signature="e#12992#13075#0" expanded="true" />
+            <element signature="e#13241#13278#0" expanded="true" />
+            <element signature="e#13335#13418#0" expanded="true" />
+            <element signature="e#13520#13603#0" expanded="true" />
+            <element signature="e#13713#13796#0" expanded="true" />
+            <element signature="e#13861#13944#0" expanded="true" />
+            <element signature="e#14125#14225#0" expanded="true" />
+            <element signature="e#14318#14447#0" expanded="true" />
+            <element signature="e#14554#14683#0" expanded="true" />
+            <element signature="e#14748#14877#0" expanded="true" />
+            <element signature="e#15067#15104#0" expanded="true" />
+            <element signature="e#15478#15578#0" expanded="true" />
+            <element signature="e#15667#15767#0" expanded="true" />
+            <element signature="e#15870#15970#0" expanded="true" />
+            <element signature="e#16035#16135#0" expanded="true" />
+            <element signature="e#16251#16351#0" expanded="true" />
+            <element signature="e#16778#16861#0" expanded="true" />
+            <element signature="e#16992#17029#0" expanded="true" />
+            <element signature="e#17204#17270#0" expanded="true" />
+            <element signature="e#17325#17391#0" expanded="true" />
+            <element signature="e#17466#17532#0" expanded="true" />
+            <element signature="e#17601#17667#0" expanded="true" />
+            <element signature="e#17756#17822#0" expanded="true" />
+            <element signature="e#17892#17929#0" expanded="true" />
+            <element signature="e#18038#18075#0" expanded="true" />
+            <element signature="e#18278#18378#0" expanded="true" />
+            <element signature="e#18569#18652#0" expanded="true" />
+            <element signature="e#18699#18736#0" expanded="true" />
+            <element signature="e#18781#18864#0" expanded="true" />
+            <element signature="e#18936#19019#0" expanded="true" />
+            <element signature="e#19091#19174#0" expanded="true" />
+            <element signature="e#19276#19359#0" expanded="true" />
+            <element signature="e#19589#19689#0" expanded="true" />
+            <element signature="e#19883#19966#0" expanded="true" />
+            <element signature="e#20013#20050#0" expanded="true" />
+            <element signature="e#20095#20178#0" expanded="true" />
+            <element signature="e#20250#20333#0" expanded="true" />
+            <element signature="e#20405#20488#0" expanded="true" />
+            <element signature="e#20590#20673#0" expanded="true" />
+            <element signature="e#20945#21045#0" expanded="true" />
+            <element signature="e#21239#21322#0" expanded="true" />
+            <element signature="e#21369#21406#0" expanded="true" />
+            <element signature="e#21451#21534#0" expanded="true" />
+            <element signature="e#21606#21689#0" expanded="true" />
+            <element signature="e#21761#21844#0" expanded="true" />
+            <element signature="e#21946#22029#0" expanded="true" />
+            <element signature="e#22301#22401#0" expanded="true" />
+            <element signature="e#22596#22679#0" expanded="true" />
+            <element signature="e#22726#22763#0" expanded="true" />
+            <element signature="e#22808#22891#0" expanded="true" />
+            <element signature="e#22963#23046#0" expanded="true" />
+            <element signature="e#23118#23201#0" expanded="true" />
+            <element signature="e#23303#23386#0" expanded="true" />
+            <element signature="e#23658#23758#0" expanded="true" />
+            <element signature="e#23951#24034#0" expanded="true" />
+            <element signature="e#24081#24118#0" expanded="true" />
+            <element signature="e#24163#24246#0" expanded="true" />
+            <element signature="e#24318#24401#0" expanded="true" />
+            <element signature="e#24473#24556#0" expanded="true" />
+            <element signature="e#24658#24741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
